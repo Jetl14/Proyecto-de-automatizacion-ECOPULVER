@@ -97,7 +97,25 @@ nav ul li.active, nav ul li:hover {
 .images img:hover {
     transform: scale(1.05);
 }
+/* Estilos para el footer */
+footer {
+    background-color: #002233;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
 
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+footer img {
+    height: 80px;
+}
 /* Estilos responsivos */
 @media (max-width: 768px) {
     nav ul {
